@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    max-width: 46rem;
+    margin: 0 auto;
+    position: relative;
+    top: -1.85rem;
+}
+
+.mainInput{
+    height: 3.375rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    width: 39.875rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 0.875rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.botaoAdicionar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.875rem 1.2rem;
+    gap: 8px;
+    background: var(--blue-800);
+    color: var(--gray-100);
+    width: 5.625rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.botaoAdicionar span {
+    font-weight: bold;
+}
+
