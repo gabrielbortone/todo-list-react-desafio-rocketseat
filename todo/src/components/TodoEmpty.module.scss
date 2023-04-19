@@ -1,0 +1,25 @@
+.container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContainer{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.imgContainer img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.textoNormal{
+    color: var(--gray-300);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+}

@@ -1,7 +1,6 @@
 import styles from './TaskCreate.module.scss';
 import iconeMais from '../assets/plus.svg';
 
-
 export default function TaskCreate(){
 
     return (

@@ -1,0 +1,38 @@
+.todoItemContainer{
+    width: 46rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray-500);
+    order: 1px solid #333333;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 1rem 0.8rem;
+}
+
+.textoContainer{
+    font-family: 'Inter', sans-serif;
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.9;
+    max-width: 38.75rem;
+    margin-left: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.textoContainer p {
+    padding-left: 4px;
+}
+
+.textoIsCompleted {
+    text-decoration-line: line-through;
+    color: var(--gray-300);
+}
+
+.imgManiputalacao{
+    margin-top: -1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
