@@ -33,3 +33,9 @@ body, input, span, button{
   font-family: 'Inter', sans-serif;
 }
 
+@media (max-width:960px){
+  body{
+    background: var(--gray-600);
+    margin: 0 1.25rem;
+  }
+}
