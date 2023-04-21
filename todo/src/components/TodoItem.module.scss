@@ -1,8 +1,9 @@
 .todoItemContainer{
-    width: 46rem;
+    max-width: 46rem;
     margin: 1rem auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    justify-self: center;
     align-items: center;
     background: var(--gray-500);
     order: 1px solid #333333;
@@ -16,10 +17,9 @@
     color: var(--gray-100);
     font-size: 0.875rem;
     font-weight: 400;
-    line-height: 1.9;
-    max-width: 38.75rem;
-    margin-left: 0.8rem;
-    margin-right: 0.5rem;
+    line-height: 1.8;
+    max-width: 30rem;
+    word-wrap: break-word;
 }
 
 .textoContainer p {
@@ -32,7 +32,26 @@
 }
 
 .imgManiputalacao{
-    margin-top: -1rem;
     width: 1.2rem;
     height: 1.2rem;
+}
+
+.btnManipulacao {
+    border: none;
+    padding: 2px;
+    align-self: center;
+    justify-self: center;
+    background: transparent;
+    cursor: pointer;
+}
+
+@media (max-width:960px){
+    .todoItemContainer {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+
+    .textoContainer{
+        max-width: 18rem;
+    }
 }

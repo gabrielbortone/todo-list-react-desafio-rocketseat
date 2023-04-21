@@ -4,3 +4,10 @@
     border-top: 1px solid var(--gray-400);
     padding-top: 2rem;
 }
+
+@media (max-width:960px){
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

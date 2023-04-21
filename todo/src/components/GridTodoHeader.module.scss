@@ -37,3 +37,10 @@
     padding: 0.1875rem 0.5rem;
     color: var(--gray-100);
 }
+
+@media (max-width:960px){
+    .header {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+}
